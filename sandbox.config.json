@@ -1,0 +1,10 @@
+{
+  "container": {
+    "node": "14",
+    "port": 8080
+  },
+  "hardReloadOnChange": false,
+  "infiniteLoopProtection": true,
+  "template": "node",
+  "view": "browser"
+}

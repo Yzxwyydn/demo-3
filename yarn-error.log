@@ -1,0 +1,57 @@
+Arguments: 
+  /home/sandbox/.nvm/versions/node/v14.19.3/bin/node /home/sandbox/.nvm/versions/node/v14.19.3/bin/yarn --non-interactive
+
+PATH: 
+  /home/sandbox/.nvm/versions/node/v14.19.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.19.3
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOSPC: no space left on device, copyfile '/home/sandbox/.cache/yarn/v6/npm-css-tree-1.0.0-alpha.37-98bebd62c4c1d9f960ec340cf9f7522e30709a22-integrity/node_modules/css-tree/lib/syntax/atrule/font-face.js' -> '/sandbox/node_modules/css-tree/lib/syntax/atrule/font-face.js'
+
+npm manifest: 
+  {
+    "babel": {
+      "presets": [
+        "@vue/cli-plugin-babel/preset"
+      ]
+    },
+    "dependencies": {
+      "@formily/core": "latest",
+      "@formily/vue": "latest",
+      "ant-design-vue": "latest",
+      "core-js": "^3.6.5",
+      "vue": "^2.6.11",
+      "vue-demi": "latest"
+    },
+    "devDependencies": {
+      "@vue/cli-plugin-babel": "~4.5.0",
+      "@vue/cli-service": "~4.5.0",
+      "@vue/composition-api": "latest",
+      "vue-template-compiler": "^2.6.11"
+    },
+    "scripts": {
+      "build": "vue-cli-service build",
+      "lint": "vue-cli-service lint",
+      "serve": "vue-cli-service serve"
+    },
+    "vue": {
+      "devServer": {
+        "disableHostCheck": true,
+        "host": "0.0.0.0"
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
